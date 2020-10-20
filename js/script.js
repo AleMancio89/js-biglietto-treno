@@ -1,5 +1,5 @@
-var tratta = prompt('Quanti chilometri verranno percorsi?');
-var anni = prompt('Quanti anni ha il passeggero?');
+var tratta = parseInt(prompt('Quanti chilometri verranno percorsi?'));
+var anni = parseInt(prompt('Quanti anni ha il passeggero?'));
 
 tratta = tratta * 0.21;
 
