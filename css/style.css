@@ -1,0 +1,82 @@
+body{
+  background-color: #b91450;
+}
+
+h4{
+  text-align: center;
+  color: white;
+}
+
+h4:first-of-type{
+  margin: 20px 0;
+}
+
+h4:last-of-type{
+  margin-top: 20px;
+}
+
+.data .col{
+  padding-top: 20px;
+}
+
+.data input, select{
+  border: 1px solid #b91450;
+  border-radius: 5px;
+}
+
+.data input:focus, .data select:focus{
+  outline: none;
+}
+
+.data {
+  color: #b91450;
+  text-align: center;
+}
+
+
+.data, .ticket{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.my_btn{
+  border: 1px solid grey;
+  color: #b91450;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+
+.my_btn:focus{
+  border: 1px solid #b91450;
+  outline: none;
+}
+
+#ticket {
+  background-color: white;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+#ticket p:first-of-type, #nameSurname{
+  font-weight: bold;
+}
+
+#ticket .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+#ticket .col:first-of-type{
+  background-color: grey;
+}
+
+#ticket p:first-child{
+  margin-bottom: 0;
+  padding-top: 15px;
+}
