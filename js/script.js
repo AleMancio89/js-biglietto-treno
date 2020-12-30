@@ -2,12 +2,12 @@ var COSTO_UNITARIO_KM = 0.21;
 var SCONTO_MINORENNI = 0.2;
 var SCONTO_SENIOR = 0.4;
 
+//cerco e salvo in una variabile i due bottoni nel DOM
+var buttonGenerateEl = document.getElementById('Generate');
+var buttonResetEl = document.getElementById('Reset');
 
-var buttonGenerate = document.getElementById('Generate');
-var buttonReset = document.getElementById('Reset');
 
-
-buttonGenerate.addEventListener('click', function(){
+buttonGenerateEl.addEventListener('click', function(){
 
   //assegno nome al biglietto
 
@@ -59,7 +59,7 @@ buttonGenerate.addEventListener('click', function(){
 
 });
 
-buttonReset.addEventListener('click', function(){
+buttonResetEl.addEventListener('click', function(){
   document.getElementById('ticket').style.visibility = 'hidden';
   document.getElementById('name').value = '';
   document.getElementById('km').value = '';
